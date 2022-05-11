@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  min-width: 25%;
+  margin-top: 2%;
+  flex-wrap: nowrap;
+  padding: 0.5% 2% 2% 2%;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+.card__icon {
+  font-size: 1.5rem;
+}
+
+.card__icon:hover {
+  color: red;
+}
+.card__img-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.card span {
+  color: #14213d;
+  font-weight: 900;
+  /* font-size: large; */
+}
+.card__img-wrap img {
+  width: 100%;
+}
