@@ -1,0 +1,24 @@
+.cards-container {
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.btn {
+  background-color: rgb(226, 137, 74);
+  border-radius: 3px;
+  font-size: large;
+  display: block;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 10rem;
+}
+.btn:hover {
+  background-color: rgb(212, 110, 38);
+}

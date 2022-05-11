@@ -1,0 +1,14 @@
+.search-bar {
+  background-color: #fca311;
+  height: 5vh;
+}
+
+.input-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.input-wrap input {
+  font-size: large;
+}
